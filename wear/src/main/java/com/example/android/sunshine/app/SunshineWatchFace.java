@@ -61,6 +61,7 @@ import java.util.concurrent.TimeUnit;
  * On devices with low-bit ambient mode, the text is drawn without anti-aliasing in ambient mode.
  */
 public class SunshineWatchFace extends CanvasWatchFaceService {
+
     private static final String TAG = "SunshineWatchFace";
     private static final String WEARABLE_MSG_PATH = "/wearable/data/sunshine/1726356709";
     private static final String WEARABLE_RDY_MSG = "ready";
@@ -169,7 +170,7 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
                     .setCardPeekMode(WatchFaceStyle.PEEK_MODE_VARIABLE)
                     .setBackgroundVisibility(WatchFaceStyle.BACKGROUND_VISIBILITY_INTERRUPTIVE)
                     .setShowSystemUiTime(false)
-                    .setHotwordIndicatorGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL)
+                    .setHotwordIndicatorGravity(Gravity.TOP | Gravity.CENTER_HORIZONTAL)
                     .build());
 
             Resources resources = SunshineWatchFace.this.getResources();
