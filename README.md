@@ -1,10 +1,13 @@
 #Sunshine (Wearable Watch Face)
-## Project 6 ("Go Ubiquitous") of the Udacity Android Developer Nanodegree
+# Project 6 ("Go Ubiquitous") of the Udacity Android Developer Nanodegree
 
 Synchronizes weather information from OpenWeatherMap on Android Phones, Tablets, and Wearables.
 
 ###### Detail
 Project 6 specifically focuses on creating the watch face for wearables so that users can access Sunshine's weather information at a glance.  The mobile app utilizes the GoogleAPIClient to send weather info via the data layer. The watch face service receives the data and draws watch face with time, date, and weather.
+
+# Screen
+![Screen_after_response](https://github.com/ashokslsk/Sunshine-Wear-P6/blob/master/Screens/light.png)
 
 
 Getting Started
