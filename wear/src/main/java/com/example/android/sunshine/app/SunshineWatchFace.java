@@ -63,7 +63,7 @@ import java.util.concurrent.TimeUnit;
 public class SunshineWatchFace extends CanvasWatchFaceService {
 
     private static final String TAG = "SunshineWatchFace";
-    private static final String WEARABLE_MSG_PATH = "/wearable/data/sunshine/1726356709";
+    private static final String WEARABLE_MSG_PATH = "/wearable/data/sunshine/path";
     private static final String WEARABLE_RDY_MSG = "ready";
     private static final String TEMPERATURE_SPACING = " ";
 

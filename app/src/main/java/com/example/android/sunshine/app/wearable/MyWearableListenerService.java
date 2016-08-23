@@ -3,7 +3,6 @@ package com.example.android.sunshine.app.wearable;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Matrix;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
@@ -13,7 +12,6 @@ import com.example.android.sunshine.app.Utility;
 import com.example.android.sunshine.app.data.WeatherContract;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.wearable.MessageApi;
 import com.google.android.gms.wearable.MessageEvent;
 import com.google.android.gms.wearable.Node;
 import com.google.android.gms.wearable.NodeApi;
@@ -30,7 +28,7 @@ import java.io.ObjectOutputStream;
 public class MyWearableListenerService extends WearableListenerService
         implements GoogleApiClient.OnConnectionFailedListener, GoogleApiClient.ConnectionCallbacks{
     private static final String TAG = "SunshineWatchFace";
-    public static final String WEARABLE_MSG_PATH = "/wearable/data/sunshine/1726356709";
+    public static final String WEARABLE_MSG_PATH = "/wearable/data/sunshine/path";
     public static final String WEARABLE_RDY_MSG = "ready";
 
     private static final String[] FORECAST_COLUMNS = {
