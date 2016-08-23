@@ -51,6 +51,7 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.lang.ref.WeakReference;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.TimeZone;
 import java.util.concurrent.TimeUnit;
@@ -139,6 +140,8 @@ public class SunshineWatchFace extends CanvasWatchFaceService {
         Paint mTimePaint;
         Paint mMaxTempPaint;
         Paint mMinTempPaint;
+
+
 
         Calendar mCalendar;
         float mCenterXTimeOffset;

@@ -4,4 +4,13 @@
     <color name="digital_background_ambient">#000000</color>
     <color name="digital_text">#ffffff</color>
     <color name="digital_text_transparent">#c1ffffff</color>
+
+    <color name="background">#000000</color>
+    <color name="background2">#000088</color>
+
+    <!-- using the "Light Blue" Material Palette -->
+    <color name="primary">#03A9F4</color>  <!-- 500 -->
+    <color name="primary_dark">#0288D1</color>  <!-- 700 -->
+    <color name="primary_light">#B3E5FC</color> <!-- 100 -->
+    <color name="accent">#FFD740</color>
 </resources>
